@@ -1,7 +1,7 @@
 import json
 import requests
 
-year = input("Enter the year for the standings first year only, i.e. 2018-2019 szn is 2018: ")
+year = input("Enter the year for the standings, with 2018-2019 szn as 2018: ")
 szn = year + str(int(year)+1)
 
 headers = {

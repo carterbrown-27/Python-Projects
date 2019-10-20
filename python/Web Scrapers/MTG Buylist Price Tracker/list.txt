@@ -12,3 +12,4 @@ Vizier of the Menagerie||Amonkhet||
 Huatli, Radiant Champion||Rivals of Ixalan||
 Shalai, Voice of Plenty||Dominaria||
 Wall of Omens||Eternal Masters||
+Giver of Runes||Modern Horizons||

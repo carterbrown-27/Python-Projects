@@ -70,13 +70,14 @@ for response in responses:
         # if right card, set, foiling
         p = result.table.tr.td.next_sibling.next_sibling
         p = p.text[5:]
-        print(card['cardName'] + ": " + p)
+        print(card['cardName'] + ": $" + p)
         price = float(p)
         if price == 0.00: print(card['cardName']+": X")
         totalPrice += price
     count+=1
 
-print("$"+str(round(totalPrice,2)))
+print("============================")
+print("Total = $"+str(round(totalPrice,2)))
 finalBonusPrice = str(round(totalPrice*1.15,2))
 print("w/ Store Credit Bonus = $"+finalBonusPrice)
 
