@@ -24,7 +24,9 @@ for l in list:
     x = 0
     for i in l:
         if i == 1 :
-            setColor(0,255,0);
+            setColor(0,255,0)
+        elif i == biggest:
+            setColor(255,0,0)
         else:
             sat = 255*(biggest-i)//biggest
             setColor(sat,sat,255)
