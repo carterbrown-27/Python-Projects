@@ -1,0 +1,12 @@
+Goal:
+The goal is to implement a solution that is capable of playing 'hangman'. Your solution will be provided a list of possible words and a string representing the current puzzle (more details below). It must then guess letters and try to win the game. In order to implement a solution, you have to write code for the initround(string) and makeguess(string) functions in the hangman-ai.py file. You can test your solution by running the hangman.py file, which will import your AI module and use it to play 10 games.
+
+Rules:
+1. You are given base-words.txt, hangman.py, and hangman-ai.py.
+2. The only file you should modify is hangman-ai.py.
+3. Do not change the function definitions in the file, they must both accept a single string argument.
+4. The initround(string) function in your hangman-ai.py module will be called at the start of each hangman round. You should perform any pre-round initialization of variables your AI will require in this function. The input string for this function will have a single "_" for each character in the word. This allows you to know what the length of the current puzzle is. For example, if the word to be guessed is "apple", the input string will consist of 5 underscore characters.
+5. The makeguess(string) function is responsible for making guesses in the game. It must return a single lower-case letter (e.g., "c"). You can do any processing in this function that you write yourself. The input string will contain the puzzle with any unguessed letters being a _. For example, if the word to be guessed is "apple" and you have guessed the ltters "p", "e", and "t", the string given to your function would be "_pp_e".
+6. You can add additional functions into the hangman-ai.py file if you wish.
+7. Within the hangman-ai.py file, you will have access to a 'wordlist' list variable containing all possible words the puzzle could be. This is initialized when your file is first loaded by the hangman game. There is also a 'letters' list variable that will contain all of the characters from a-z. This is initialized at the start of each round, so you can modify this throughout the round if you want. You can also copy the data from either list into a separate list if you want to use it without destroying the originals.
+8. To test your AI, you can run the hangman.py file. This will play 10 games by default using your AI. You can change the number of games in the hangman.py file if you want it to play more or less.
