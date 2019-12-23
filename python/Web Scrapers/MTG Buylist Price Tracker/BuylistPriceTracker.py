@@ -8,10 +8,9 @@ import datetime
 import grequests
 
 __author__ = 'Carter Brown'
-__spec__  # gets price of mtg card buylist from kanatacg.com (Wizard's Tower)
+__spec__ # gets price of mtg card buylist from kanatacg.com (Wizard's Tower)
 
 totalPrice = 0.00
-
 cardList = []
 
 with open("list.txt") as f:
