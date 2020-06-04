@@ -1,6 +1,3 @@
-Bloodstained Mire||Khans of Tarkir||
-Hallowed Fountain||Return to Ravnica||
-Thalia, Guardian of Thraben||Masters 25||
 Simian Spirit Guide||Masters 25||
 Cascade Bluffs||Masters 25||
 Temple Garden||Guilds of Ravnica||
@@ -11,5 +8,4 @@ Gifted Aetherborn||Aether Revolt||
 Vizier of the Menagerie||Amonkhet||
 Huatli, Radiant Champion||Rivals of Ixalan||
 Shalai, Voice of Plenty||Dominaria||
-Wall of Omens||Eternal Masters||
 Giver of Runes||Modern Horizons||

@@ -1,0 +1,37 @@
+{
+	"name" : "NoCtrl Hotkey Blocker",
+	"version" : "1.0",
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+	
+	"description" : "Block chrome hotkeys! Go to Tools > Extensions > Keyboard Shortcuts to choose hotkeys to block with NoCtrl.",
+	
+	"commands" : {
+		"action-1":{
+			"description" : "Block Selected Hotkey"
+		},
+		"action-2":{
+			"description" : "Block Selected Hotkey"
+		},
+		"action-3":{
+			"description" : "Block Selected Hotkey"
+		},
+		"action-4":{
+			"description" : "Block Selected Hotkey"
+		},
+		"action-5":{
+			"description" : "Block Selected Hotkey"
+		}
+	},
+	
+	"icons" : {
+		"16" : "images/noctrl-16.png",
+		"32" : "images/noctrl-32.png",
+		"48" : "images/noctrl-48.png",
+		"128" : "images/noctrl-128.png"
+	},
+	
+	"manifest_version": 2
+}
